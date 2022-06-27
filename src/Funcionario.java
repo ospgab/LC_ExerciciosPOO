@@ -1,4 +1,4 @@
-public abstract class Funcionario {
+public abstract class Funcionario implements funcis{
 
         String nome;
         String cpf;
@@ -7,9 +7,7 @@ public abstract class Funcionario {
 
 
 
-       public double getSalario(){
-               return this.salario;
-       }
+
 
         public String getNome(){
                 return this.nome;

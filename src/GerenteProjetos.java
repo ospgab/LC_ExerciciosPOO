@@ -9,4 +9,8 @@ public class GerenteProjetos extends Funcionario{
     }
 
 
+    @Override
+    public double getSalario() {
+        return this.salario;
+    }
 }

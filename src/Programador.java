@@ -10,15 +10,16 @@ public class Programador extends Funcionario{
 
     }
 
-    private double setSalario(double sal){
+
+
+    @Override
+    public double getSalario() {
         int bonus = tempoDeEmpresa/4;
 
         if(bonus >= 1){
-            double salarioBonus = sal + bonus*0.2*sal;
+            double salarioBonus = this.salario + bonus * 0.2 * this.salario;
             return salarioBonus;
         }
         return this.salario;
     }
-
-
 }

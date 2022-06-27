@@ -9,4 +9,8 @@ public class Coordenador extends Funcionario{
     }
 
 
+    @Override
+    public double getSalario() {
+        return this.salario;
+    }
 }
